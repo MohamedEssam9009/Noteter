@@ -6,9 +6,11 @@ import 'package:notes_app/views/notes_view.dart';
 
 import 'cubits/add_note_cubit/add_note_cubit.dart';
 import 'models/note_model.dart';
+import 'simple_bloc_observer.dart';
 
 void main() async {
   await Hive.initFlutter();
+  Bloc.observer = SimpleBlocObserver();
   await Hive.openBox(kNotesBox);
   Hive.registerAdapter(NoteModelAdapter());
   runApp(const NotesApp());
