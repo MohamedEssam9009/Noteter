@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:notes_app/cubits/notes_cubit/notes_cubit.dart';
-import 'package:notes_app/views/widgets/custom_app_bar.dart';
-import 'package:notes_app/views/widgets/custom_text_field.dart';
-import 'package:notes_app/views/widgets/edit_notes_colors_list_view.dart';
+import '../../cubits/notes_cubit/notes_cubit.dart';
+import 'custom_app_bar.dart';
+import 'custom_text_field.dart';
+import 'edit_notes_colors_list_view.dart';
 
 import '../../models/note_model.dart';
 

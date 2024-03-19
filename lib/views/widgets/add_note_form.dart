@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:intl/intl.dart';
-import 'package:notes_app/cubits/add_note_cubit/add_note_state.dart';
-import 'package:notes_app/views/widgets/colors_list_view.dart';
+import '../../cubits/add_note_cubit/add_note_state.dart';
+import 'colors_list_view.dart';
 
 import '../../cubits/add_note_cubit/add_note_cubit.dart';
 import '../../models/note_model.dart';
