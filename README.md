@@ -9,23 +9,6 @@ Noteter is a simple note-taking application built with Flutter, providing an int
 - Update notes with new content.
 - Delete notes when they are no longer needed.
 
-## Getting Started
-
-To get started with Noteter, follow these steps:
-1. Clone the repository:
-```bash
-git clone https://github.com/MohamedEssam9009/Noteter.git
-```
-
-2. Navigate into the project directory:
-```bash
-cd Noteter
-```
-
-3. Run the Flutter app:
-```bash
-flutter run
-```
 ## Screenshots
 
 ![Full Presentation](https://github.com/MohamedEssam-900009/notes_app/assets/77198018/909a5dd6-83b1-41fd-bbea-13df4bf5ff27)
